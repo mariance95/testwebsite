@@ -1,0 +1,121 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: #0d6efd;
+}
+h1 {
+  font-family: "Montserrat Black";
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #212121;
+}
+h3 {
+  font-size: 1rem;
+  margin: 0;
+  color: #212121;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+button {
+  border-width: 0.65rem;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #212121;
+  margin: 5px 15px;
+  outline: none;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat Light";
+}
+
+button[type="button"]:focus {
+  outline: none;
+  outline: -webkit-focus-ring-color auto 0;
+  box-shadow: 0 0 3pt 2pt #212121;
+}
+
+button:hover {
+  background-color: #212121;
+  border-color: #212121;
+  color: #ffffff;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+.title-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/*SERVICES SECTION*/
+#services {
+  text-align: center;
+  margin: 0;
+}
+/* Classes */
+.titles {
+  margin: 0 0 25px 0;
+}
+.boxes {
+  display: inline-block;
+  margin: auto;
+  padding: 25px;
+}
+.icon-container {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background-color: #0d6efd;
+  border-radius: 50%;
+  padding: auto;
+}
+.icon {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+}
+
+/*Testimonial Section*/
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #0d6efd;
+  color: #ffffff;
+}
+
+.testimonials-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 10px;
+}
