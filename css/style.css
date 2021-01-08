@@ -106,10 +106,14 @@ button:hover {
 
 /*Testimonial Section*/
 #testimonials {
-  padding: 7% 15%;
+  padding: 7% 0;
   text-align: center;
   background-color: #0d6efd;
   color: #ffffff;
+}
+
+#testimonials-carousel{
+  width: 100%;
 }
 
 .testimonials-image {
