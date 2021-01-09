@@ -1,6 +1,10 @@
 body {
   font-family: Montserrat;
 }
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
 h1 {
   font-weight: 900;
 }
@@ -17,17 +21,16 @@ h3 {
     padding-bottom: 150px;
   }
 }
-
 @media (max-width: 990px){
   .media-dissapear {
     display: none;
   }
 }
 
+/*Title*/
 .container-fluid {
   padding: 3% 15%;
 }
-
 button {
   border-width: 0.65rem;
   border-radius: 25px;
@@ -38,7 +41,6 @@ button {
   margin: 5px 15px;
   outline: none;
 }
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -55,24 +57,6 @@ button {
   font-size: 1.5rem;
   color: #FFFFFF;
 }
-
-button[type="button"]:focus {
-  outline: none;
-  outline: -webkit-focus-ring-color auto 0;
-  box-shadow: 0 0 3pt 2pt #212121;
-}
-
-button:hover {
-  background-color: #212121;
-  border-color: #212121;
-  color: #ffffff;
-}
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
-/*Title*/
 #title {
   min-height: 650px;
   max-height: 650px;
@@ -100,14 +84,16 @@ button:hover {
   max-height: 100%;
   object-fit: cover;
 }
+.navbar-toggler {
+  background-color: #212121;
+}
 
-/*SERVICES SECTION*/
+/*What I Do SECTION*/
 #services {
   text-align: center;
   margin: 0;
   background-color: #FFFFFF;
 }
-/* Classes */
 .titles {
   margin: 0 0 25px 0;
 }
@@ -134,14 +120,12 @@ button:hover {
 #testimonials {
   padding: 7% 0;
   text-align: center;
-  background-color: #0d6efd;
+  background-color: #212121;
   color: #ffffff;
 }
-
 #testimonials-carousel{
   width: 100%;
 }
-
 .testimonials-image {
   width: 150px;
   height: 150px;
@@ -150,17 +134,17 @@ button:hover {
   margin: 10px;
 }
 
-
+/*Portfolio Section*/
 #portfolio {
   padding: 25px 15%;
   text-align: center;
   background-color: #FFFFFF;
 }
-
 .card {
   border-radius: 25px;
 }
 
+/*Footer Section*/
 #footer {
   background-color: #FFFFFF;
 }
