@@ -73,14 +73,24 @@ button:hover {
 
 /*Title*/
 #title {
-  height: 750px;
+  min-height: 650px;
+  max-height: 650px;
   color: white;
 }
 #title .bg-image {
-  background-image: url("https://pro2-bar-s3-cdn-cf1.myportfolio.com/0d0cec1e2a4c8666a5cf1a36835ee6c8/ca5e4bdd-c86d-41a4-b23d-6ccce6b5bdab_rw_1920.jpg?h=a4293339bd37742781a19b4634f1cbfb");
+  background-image: url("https://pro2-bar-s3-cdn-cf1.myportfolio.com/0d0cec1e2a4c8666a5cf1a36835ee6c8/ca5e4bdd-c86d-41a4-b23d-6ccce6b5bdab_rw_1920.jpg?h=a4293339bd37742781a19b4634f1cbfb") no-repeat top center;
+  display: block;
+  padding: 0;
   position: fixed;
-  transform: translateY(-25%);
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #999;
+  text-align: center;
   z-index: -1;
 }
 .title-image {
