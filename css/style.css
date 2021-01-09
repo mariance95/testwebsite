@@ -18,7 +18,7 @@ h3 {
 @media (max-width: 990px){
   .media-center {
     text-align: center;
-    padding-bottom: 150px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 990px){
@@ -86,6 +86,9 @@ button {
 }
 .navbar-toggler {
   background-color: #212121;
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 /*What I Do SECTION*/
