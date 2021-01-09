@@ -27,13 +27,25 @@
       crossorigin="anonymous"
     ></script>
 
+    <!--    Fuentecitas-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Hello, world!</title>
   </head>
   <body>
     <!--  Title Section-->
     <section id="title">
+      <img
+        class="bg-image"
+        src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/0d0cec1e2a4c8666a5cf1a36835ee6c8/ca5e4bdd-c86d-41a4-b23d-6ccce6b5bdab_rw_1920.jpg?h=a4293339bd37742781a19b4634f1cbfb"
+        alt=""
+      />
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="">MARIANCE</a>
           <button
             class="navbar-toggler"
@@ -50,33 +62,23 @@
           <div class="collapse navbar-collapse" id="navbarToggle">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="">Contact</a>
+                <a class="nav-link" href="#services">What I Do</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Pricing</a>
+                <a class="nav-link" href="#testimonials">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Download</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
             </ul>
           </div>
         </nav>
         <div class="row">
-          <div class="col-lg-6">
-            <h1>FOTOGRAFIA, CINE, Y OTRAS WEAS XDDDD</h1>
-            <button type="button" class="download-button">
-              <i class="fas fa-angry"></i> Try 1
-            </button>
-            <button type="button" class="download-button">
-              <i class="fas fa-angry"></i> Try 2
-            </button>
+          <div class="col-lg-6 media-center">
+            <h1>MARIANCE</h1>
+            <h2>Photography Portfolio</h2>
           </div>
-          <div class="col-lg-6">
-            <img
-              class="title-image"
-              src="images/frontpage-slider/a01.jpg"
-              alt=""
-            />
+          <div class="col-lg-6 media-dissapear">
           </div>
         </div>
       </div>
@@ -86,54 +88,36 @@
     <section id="services">
       <div class="row container-fluid">
         <div class="col-lg-3">
-          <div class="icon-container">
-            <img
-              class="icon"
-              src="images/content-icons/photographer.png"
-              alt=""
-            />
-          </div>
-          <h2>Photographer</h2>
-          <h3>Prueba Muestra Lorem Itpsum ahre xd</h3>
+          <p class="icon">😎</p>
+          <h4>Photographer</h4>
+          <h5>Prueba Muestra Lorem Itpsum ahre xd</h5>
         </div>
         <div class="col-lg-3">
-          <div class="icon-container">
-            <img
-              class="icon"
-              src="images/content-icons/photographer.png"
-              alt=""
-            />
-          </div>
-          <h2>Photographer</h2>
-          <h3>Prueba Muestra Lorem Itpsum ahre xd</h3>
+          <p class="icon">😎</p>
+          <h4>Photographer</h4>
+          <h5>Prueba Muestra Lorem Itpsum ahre xd</h5>
         </div>
         <div class="col-lg-3">
-          <div class="icon-container">
-            <img
-              class="icon"
-              src="images/content-icons/photographer.png"
-              alt=""
-            />
-          </div>
-          <h2>Photographer</h2>
-          <h3>Prueba Muestra Lorem Itpsum ahre xd</h3>
+          <p class="icon">😎</p>
+          <h4>Photographer</h4>
+          <h5>Prueba Muestra Lorem Itpsum ahre xd</h5>
         </div>
         <div class="col-lg-3">
-          <div class="icon-container">
-            <img
-              class="icon"
-              src="images/content-icons/photographer.png"
-              alt=""
-            />
-          </div>
-          <h2>Photographer</h2>
-          <h3>Prueba Muestra Lorem Itpsum ahre xd</h3>
+          <p class="icon">😎</p>
+          <h4>Photographer</h4>
+          <h5>Prueba Muestra Lorem Itpsum ahre xd</h5>
         </div>
       </div>
     </section>
 
     <section id="testimonials">
-      <div id="testimonials-carousel" class="carousel slide col-lg-12" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="hover">
+      <div
+        id="testimonials-carousel"
+        class="carousel slide col-lg-12"
+        data-bs-ride="carousel"
+        data-bs-interval="2000"
+        data-bs-pause="hover"
+      >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <h1>"Una reverenda cagada XD"</h1>
@@ -166,5 +150,55 @@
       </div>
     </section>
 
+    <section id="portfolio">
+      <h1>PORTFOLIO</h1>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header"><h2>Product Photography</h2></div>
+            <img
+            src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/0d0cec1e2a4c8666a5cf1a36835ee6c8/5d89ccd0-7637-475b-959f-8a657eeb38af_rw_1920.jpg?h=0381198f442df46f3e1b549fc33fde6b"
+            class="card-img-top alt=""">
+            <div class="card-body">
+              <div class="card-text">Photography for products</div>
+              <button type="button" class="btn btn-primary">See More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header"><h2>Product Photography</h2></div>
+            <img
+            src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/0d0cec1e2a4c8666a5cf1a36835ee6c8/5d89ccd0-7637-475b-959f-8a657eeb38af_rw_1920.jpg?h=0381198f442df46f3e1b549fc33fde6b"
+            class="card-img-top alt=""">
+            <div class="card-body">
+              <div class="card-text">Photography for products</div>
+              <button type="button" class="btn btn-primary">See More</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header"><h2>Product Photography</h2></div>
+            <img
+            src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/0d0cec1e2a4c8666a5cf1a36835ee6c8/5d89ccd0-7637-475b-959f-8a657eeb38af_rw_1920.jpg?h=0381198f442df46f3e1b549fc33fde6b"
+            class="card-img-top alt=""">
+            <div class="card-body">
+              <div class="card-text">Photography for products</div>
+              <button type="button" class="btn btn-primary">See More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer"><h1>Esto es un h1</h1>
+      <h2>Esto es un h2</h2>
+      <h3>Esto es un h3</h3>
+      <h4>Esto es un h4</h4>
+      <h5>Esto es un h5</h5>
+    </section>
   </body>
 </html>
